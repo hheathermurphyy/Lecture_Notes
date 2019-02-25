@@ -1,0 +1,29 @@
+#include <iostream?
+#include <iomanip>
+#include <cmath>
+using namesoace std;
+
+int day_number (int d, int m, int y);
+//returns the number .... d m y....
+
+bool leapyear (int year);
+
+int main (){
+  int day, month, year;
+  cout << "enter a date as 3 integers";
+  cin >> day >> month >> year;
+  
+  blah = daynumber (day, month, year);
+  
+  cout << "Thats daynumber" << blah << endl;
+  
+  return 0
+}
+
+
+int daynumber (int d, int m, int y){
+//this is the wrong calculation but its an approximate
+
+return ((y-1900)*365+(m-1)*30+d);
+
+}
